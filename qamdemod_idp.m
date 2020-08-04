@@ -19,3 +19,5 @@ end
 
 demodData = de2bi(symbs,sqrt(M));
 demodData = flip(demodData,2);
+
+end
