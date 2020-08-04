@@ -4,7 +4,7 @@ function modData = qammod_idp(data,M,symMap)
 %data            = randi([0 1],16,1);
 
 
-data = reshape(data,[bps, size(data,1)/sqrt(M)]);
+data = reshape(data,[sqrt(M), size(data,1)/sqrt(M)]);
 data = data';
 symbs = bi2de(data,'left-msb');
 
